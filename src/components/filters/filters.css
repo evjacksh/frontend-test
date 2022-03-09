@@ -1,0 +1,36 @@
+.settings {
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 2em;
+    padding-left: 1em;
+    font-size: 22px;
+    position: sticky;
+    top: 0;
+}
+.settings_inner {
+    height: 100%;
+    width: 100%;
+}
+.settings p{
+    color: grey;
+    margin: 0;
+}
+
+.settings_sort > h3 {
+    margin-top: 0;
+}
+
+.settings_price > p{
+    margin: 1em 0;
+}
+.settings_price input{
+    font-size: 18px;
+    width: 75%;
+}
+
+.settings_filters input, .settings_companies input, .settings_sort input{
+    width: 1em;
+    height: 1em;
+    font-size: 16px;
+} 

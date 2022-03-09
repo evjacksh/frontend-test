@@ -1,0 +1,58 @@
+.list_element_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0em 1.5em;
+}
+.element_info_time{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.element_info_way{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.info_way_airport,.time_takeoff_date,.time_arrival_date, .info_way_arrow{
+    color: rgb(0, 119, 255);
+}
+
+.element_info_stops_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stops_block_info{
+    color: #ff7b00;
+    font-size: 20px;
+}
+
+.element_info_line, .stops_block_line{
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+}
+
+.stops_block_line{
+    width: 40%;
+}
+
+.element_info_airlines{
+    align-self: flex-start;
+    font-size: 20px;
+}
+
+.info_time_takeoff, .info_time_arrival, .info_time_total{
+    font-size: 25px;
+}
+
+.info_time_takeoff span, .info_time_arrival span{
+    font-size: 21px;
+}
