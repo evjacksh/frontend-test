@@ -10,8 +10,10 @@ const SearchListElement = ({legs,price,carrier}) => {
         if(legs[0].segments.length === 2){
             setFlightInfo({...legs[0].segments})
             setLoading(false)
+        } else if(legs[0].segments.length === 1 && legs[1].segments.length === 2){
+            setFlightInfo({...legs[1].segments})
+            setLoading(false)
         }
-
     },[legs])
 
     return (

@@ -1,7 +1,7 @@
 import Filters from './components/filters/Filters'
 import SearchList from './components/searchList/SearchList';
 import {useState} from 'react'
-import './app.css'
+import './App.css'
 const json = require('./flights.json')
 
 
